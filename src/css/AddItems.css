@@ -1,0 +1,38 @@
+.imgFiled:hover{
+    background-color: rgb(196, 195, 195);
+    cursor: pointer;
+}
+/* Hide the real file input */
+.real-file-input {
+    display: none;
+  }
+  
+  /* Style the custom file input container */
+  .file-input-container {
+    position: relative;
+    display: inline-block;
+    background-color: #f1f1f1;
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Style the label to mimic a button */
+  .custom-file-label {
+    display: inline-block;
+    color:black;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Change the label text when a file is selected */
+  .custom-file-label::after {
+    content: "Browse";
+  }
+  
+  /* Highlight the container when hovering */
+  .file-input-container:hover {
+    background-color: #e0e0e0;
+  }

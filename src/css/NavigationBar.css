@@ -1,0 +1,47 @@
+.NavLinks{
+    padding: 20px;
+}
+.NavLinks:hover{
+    color: #4FAEE8;
+    border-bottom: 4px solid black;
+}
+.searchLinks{
+    margin: 0px;
+    padding: 20px;
+    background-color: black;
+    opacity: 0.8;
+}
+.searchLinks:hover{
+    background-color: white;
+    color: #212529;
+}
+.textFooter:hover{
+    color: #4FAEE8;
+}
+
+.links >*{
+    border-radius: 10px;
+    margin: 10px;
+    transition: 0.5s;
+    color: black;
+}
+.links>*:hover{
+    background-color: #eeff38;
+    color: #092332;
+    transform: scale(1);    
+    background-color: #a8a8a8;
+}
+.NavLINKS{
+    display: block;
+}
+.NavBAR{
+    display: none;
+}
+@media only screen and (max-width:1044px){
+   .NavLINKS{
+      display: none;
+   }
+   .NavBAR{
+      display: block;
+   }
+}

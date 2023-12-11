@@ -1,0 +1,14 @@
+.navigationSmallScreen{
+    display: none;
+}
+.simplebar-placeholder{
+    display: none;
+}
+@media only screen and (max-width:1044px){
+    .navigationFullScreen{
+        display: none;
+    }
+    .navigationSmallScreen{
+        display: block;
+    }
+ }

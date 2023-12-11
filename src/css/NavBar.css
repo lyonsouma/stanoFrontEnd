@@ -1,0 +1,12 @@
+.links >*{
+    border-radius: 10px;
+    margin: 10px;
+    transition: 0.5s;
+    color: black;
+}
+.links>*:hover{
+    background-color: #eeff38;
+    color: #092332;
+    transform: scale(1);    
+    background-color: #a8a8a8;
+}

@@ -1,0 +1,23 @@
+.ImgBackGround{
+    background-image: url('../Img/pexels-david-mcbee-1546168.jpg');
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+.AboutText1{
+    display: none;
+}
+@media only screen and (max-width:767px){
+    .ImgBackGround{
+        height: 200px;
+        background-color: black;
+        opacity: 0.3;
+    }
+    .AboutText2{
+        display: none;
+    }
+    .AboutText1{
+        display: block;
+    }
+}

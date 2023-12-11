@@ -1,0 +1,9 @@
+.sideIMG{
+    background-image: url('../Img/vu-anh-TiVPTYCG_3E-unsplash.jpg');
+    background-size: cover;
+}
+@media only screen and (max-width:995px){
+    .sideIMG{
+        display: none;
+    }
+}
