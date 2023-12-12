@@ -42,7 +42,7 @@ function App() {
          <SnackTost.Provider value={SnackBarsValues}>
           <SimpleSnackbar/>
           <Routes>
-              {/* <Route path="/" element={<Dashboard/>}>
+              <Route path="/" element={<Dashboard/>}>
                  <Route index path="Users" element={<UsersComponent/>}/>
                  <Route path="AllProperties" element={<Properties/>}/>
                  <Route path="SellersProperties" element={<SellersProperties/>}/>
@@ -50,14 +50,14 @@ function App() {
                  <Route path="SoldProperties" element={<SoldProperties/>}/>
                  <Route path="PropertiesRequest" element={<PropertiesRequest/>}/>
                  <Route path="AvatarSettingsPage" element={<AvatarSettingsPage/>}/>
-              </Route> */}
-              <Route path="/" element={<LandingPage/>}>
-                  <Route index path="" element={<HomePage/>}/>
-                  <Route path="ViewProperties" element={<ViewProperties/>}/>
-                  <Route path="AboutPage" element={<AboutPage/>}/>
               </Route>
-              <Route path="/SignUp" element={<SignUpPage/>}/>
-              <Route path="/Main" element={<MainPage/>}/>
+              <Route path="/" element={<LandingPage/>}>
+                  {/* <Route index path="" element={<HomePage/>}/> */}
+                  {/* <Route path="ViewProperties" element={<ViewProperties/>}/>
+                  <Route path="AboutPage" element={<AboutPage/>}/> */}
+              </Route>
+              {/* <Route path="/SignUp" element={<SignUpPage/>}/> */}
+              {/* <Route path="/Main" element={<MainPage/>}/> */}
           </Routes>
         </SnackTost.Provider>
     </>
